@@ -1,0 +1,139 @@
+/*
+Theme Name: Green Environment
+Description: Green environment is an ideal choice for creating ecology and environment related websites. It lets you create website on various ecology and environmental non-profit organizations such as Green Earth organization and ecology preserving movements. It can be used to create any sort of organic life project website like wildlife preservation, environment preservation, recycling business, alternative energy sources distribution, fundraising, environment preservation, energy preservation, environment, recycling company, green businesses, health, recycling goods, renewable energy, recycling businesses, animal care and animal protection, rescue animal organization. This type of websites helps users to spread awareness about the various campaigns made solely for the sake of ecology. This theme comes with a broad range of options to play with. This enables a user to use a single theme for different types of projects or websites, it is customizable which suits a specific site’s need. The theme allows graphics and images which are presentable at higher resolution with no compromise in page load time.
+Author: misbahwp
+Theme URI: https://www.misbahwp.com/themes/free-green-wordpress-theme/
+Author URI: https://www.misbahwp.com/
+Template: ecology-nature
+Version: 0.1
+Requires PHP: 7.2
+Tested up to: 5.9
+Tags: blog, food-and-drink, e-commerce, wide-blocks, one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, editor-style, theme-options, threaded-comments
+Text Domain: green-environment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Green Environment WordPress Theme has been created by misbahwp(misbahwp.com), 2021.
+Green Environment WordPress Theme is released under the terms of GNU GPL
+*/
+
+/* HEADER */
+
+.page-template-frontpage .header-box {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+.page-template-frontpage #site-navigation{
+	box-shadow: none;
+	background: #fff;
+}
+.top-header{
+	padding: 0 15px;
+}
+.page-template-frontpage .top-header{
+	background: #fff;	
+}
+#main-menu ul li a{
+	padding: 0 15px;
+}
+#main-menu ul.children, #main-menu ul.sub-menu{
+	top: 50px;
+}
+.header-box {
+    background: #efef;
+}
+.page-template-frontpage .header-box{
+	background: transparent;
+}
+
+/* OUR FEATURES */
+
+.featuress-content {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px 2px #e5e5e5;
+}
+.features {
+    position: relative;
+    margin-top: -5%;
+    z-index: 9;
+}
+.featuress-icon span {
+    background: #7abf18;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+.featuress-content p {
+    font-size: 14px;
+}
+
+/* ABOUT US */
+
+.inner-box img {
+    border: none;
+    position: static;
+    margin-top: 0;
+}
+#about-us {
+    padding: 50px 0 !important;
+}
+
+/* THEME COLOR */
+
+a.shop-btn, p.slider_btn a, #main-menu ul.children li a:hover, #main-menu ul.sub-menu li a:hover, .pagination .nav-links a:hover, .pagination .nav-links a:focus, .pagination .nav-links span.current, .ecology-nature-pagination span.current, .ecology-nature-pagination span.current:hover, .ecology-nature-pagination span.current:focus, .ecology-nature-pagination a span:hover, .ecology-nature-pagination a span:focus, .comment-respond input#submit, .comment-reply a, .sidebar-widget h4.title, .sidebar-area .tagcloud a, .searchform input[type=submit], .searchform input[type=submit]:hover, .searchform input[type=submit]:focus, .menu-toggle, .dropdown-toggle, button.close-menu, nav.woocommerce-MyAccount-navigation ul li, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.added_to_cart, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.added_to_cart, .scroll-up a{
+	background: #7abf18;
+}
+a:hover, a:focus, .contact-box span, .contact-box h6, .logo a:hover, .logo a:focus, .social-links a:hover, #main-menu a:hover, #main-menu ul li a:hover, #main-menu li:hover > a, #main-menu a:focus, #main-menu ul li a:focus, #main-menu li.focus > a, #main-menu li:focus > a, #main-menu ul li.current-menu-item > a, #main-menu ul li.current_page_item > a, #main-menu ul li.current-menu-parent > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a, .social-links a:hover, .post-meta i, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,.scroll-up a:hover{
+	color: #7abf18;
+}
+.slider .owl-carousel button.owl-dot{
+	border-color: #7abf18;
+}
+span.onsale, .box-content a.button:hover, .box .box-content, .woocommerce a.button:hover, .scroll-up a:hover, nav.woocommerce-MyAccount-navigation ul li:hover, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .comment-respond input#submit:hover, .comment-reply a:hover, .woocommerce .cart .button:hover, .woocommerce a.button.alt:hover, a.shop-btn:hover, .woocommerce button.button.alt:hover, p.slider_btn a:hover, .woocommerce button.button:hover, .sidebar-area .tagcloud a:hover, footer.footer-panel, .woocommerce a.added_to_cart:hover, .woocommerce #respond input#submit:hover{
+	background: #000000;
+}
+.slider .owl-carousel button.owl-dot.active, .sidebar-area h4.title {
+    border-color: #000000;
+}
+h1, h2, h3, h4, h5, h6,a,.logo a,#main-menu ul li a,.header-search .open-search-form i,.logo span,#main-menu ul.children li a, #main-menu ul.sub-menu li a{
+	color: #000000;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.page-template-frontpage .header-box {
+	    position: static;
+	}
+	.logo-image {
+	    float: none;
+	    text-align: center;
+	}
+	.menu-toggle, .dropdown-toggle,button.close-menu{
+		background: #7abf18 !important;
+	}
+	.features {
+	    position: static;
+	    margin-top: 10%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1000px){
+	.page-template-frontpage .header-box {
+	    position: static;
+	}
+	.features {
+	    position: static;
+	    margin-top: 5%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+	.page-template-frontpage .header-box {
+	    position: static;
+	}
+}
